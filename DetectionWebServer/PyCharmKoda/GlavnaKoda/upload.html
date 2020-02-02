@@ -1,0 +1,24 @@
+<!doctype html> <!–– deklaracija dtd ––>
+<title>Uploader</title> <!–– naslov dokumenta, se prikaže v zavihku ––>
+<h2>Izberi datoteko za nalaganje</h2> <!–– header, string, ime ––>
+<p> <!–– parahraph ––>
+	{% with messages = get_flashed_messages() %} {# MAGIC funkcija #}
+	  {% if messages %} {# funkcija #}
+		<ul class=flashes>
+		{% for message in messages %}
+		  <li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %} {# MAGIC end #}
+</p> <!–– parahraph end ––>
+<form method="post" action="/" enctype="multipart/form-data"> <!–– post-request http, enctype-enkripcija za post ––>
+    <dl> <!–– description list ––>
+		<p> <!–– parahraph ––>
+			<input type="file" name="file" autocomplete="off" required> <!–– omogoča uporabniku izbiro datoteke (browse) *multiple* za več datotek ––>
+		</p>
+    </dl>
+    <p> <!–– parahraph ––>
+		<input type="submit" value="Nalozi"> <!–– submit btn ––>
+	</p>
+</form>
