@@ -1,12 +1,12 @@
 1.) na mobilnem telefonu z OS Android namestimo aplikacijo, ki jo najdemo v mapi APK
-2.) preko terminala (linux) ali cmd (windows) se pove엁mo na virtualko:
+2.) preko terminala (linux) ali cmd (windows) se pove탑emo na virtualko:
 	ssh ietk@164.8.22.197
-	geslo:ietk123
-3.) postavimo se v mapo merged in po엁nemo main.py
+	geslo:*******
+3.) postavimo se v mapo merged in po탑enemo main.py
 	cd merged
 	python3.7 main.py
-4.) ko se stre엖ik za엁ne po엁nemo aplikacijo na mobilnem telefonu
-5.) v polje IP vpi쉋mo IP naslov (164.8.22.197) in dodamo port (5000)
-6.) z gumbom choose image izberemo 엁ljeno sliko iz galerije
+4.) ko se stre탑nik za탑ene po탑enemo aplikacijo na mobilnem telefonu
+5.) v polje IP vpi큄emo IP naslov (164.8.22.197) in dodamo port (5000)
+6.) z gumbom choose image izberemo 탑eljeno sliko iz galerije
 7.) pritisnemo na gumb connect
-8.) stre엖ik nam vrne razpoznano sliko
+8.) stre탑nik nam vrne razpoznano sliko
