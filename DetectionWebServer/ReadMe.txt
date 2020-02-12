@@ -1,6 +1,6 @@
 1.) na mobilnem telefonu z OS Android namestimo aplikacijo, ki jo najdemo v mapi APK
 2.) preko terminala (linux) ali cmd (windows) se povežemo na virtualko:
-	ssh ietk@164.8.22.197
+	ssh ietk@164.8.x.x
 	geslo:*******
 3.) postavimo se v mapo merged in poženemo main.py
 	cd merged
