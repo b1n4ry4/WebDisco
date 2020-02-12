@@ -6,7 +6,7 @@
 	cd merged
 	python3.7 main.py
 4.) ko se strežnik zažene poženemo aplikacijo na mobilnem telefonu
-5.) v polje IP vpišemo IP naslov (164.8.22.197) in dodamo port (5000)
+5.) v polje IP vpišemo IP naslov (164.8.x.x) in dodamo port (5000)
 6.) z gumbom choose image izberemo željeno sliko iz galerije
 7.) pritisnemo na gumb connect
 8.) strežnik nam vrne razpoznano sliko
